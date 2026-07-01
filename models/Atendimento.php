@@ -38,5 +38,16 @@ public function listarTodos() {
         
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+
+    public function excluir($id) {
+    $query = "DELETE FROM " . $this->table . " WHERE id = :id";
+    $stmt = $this->conn->prepare($query);
+    $stmt->bindParam(":id", $id);
+    
+    if ($stmt->execute()) {
+        return true;
+    }
+    return false;
+}
 }
 
