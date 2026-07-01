@@ -1,0 +1,13 @@
+body {
+            background-color: #f2f9f9;
+        }
+        .navbar-custom {
+            background-color: #8cd3d1;
+        }
+        .text-custom {
+            color: #3b8785;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #cce8e7;
+        }

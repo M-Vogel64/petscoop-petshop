@@ -5,31 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetsCoop - Agendamento</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        body{
-            background-color: #f4effa;
-        }
-        .bg_primary{
-            background-color: #b19cd9;
-        }
-        .text-primary {
-            color: #8960b3;
-}
-        .btn-primary {
-            background-color: #b19cd9;
-            border-color: #b19cd9;
-            color: #fff;
-        }
-        .btn-primary:hover {
-            background-color: #967bb6; 
-            border-color: #967bb6 ;
-        }
-        .card {
-            border-color: #e5d9f2;
-        }
-    </style>
-    </style>
+    <link rel="stylesheet" href="assets/css/home.css">
+    
 
 </head>
 <body>
