@@ -5,14 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetsCoop - Agendamento</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body class="bg-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm mb-4">
+    <style>
+        body{
+            background-color: #f4effa;
+        }
+        .bg_primary{
+            background-color: #b19cd9;
+        }
+        .text-primary {
+            color: #8960b3;
+}
+        .btn-primary {
+            background-color: #b19cd9;
+            border-color: #b19cd9;
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background-color: #967bb6; 
+            border-color: #967bb6 ;
+        }
+        .card {
+            border-color: #e5d9f2;
+        }
+    </style>
+    </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg shadow-sm mb-4" style="background-color: #b19cd9;">
     <div class="container">
-        <a class="navbar-brand" href="index.php"> PetsCoop</a>
+        <a class="navbar-brand text-white fw-bold" href="index.php">PetScoop</a>
         <div class="ms-auto">
-            <a href="index.php?acao=login_tela" class="btn btn-outline-light btn-sm"> Área dos Funcionários</a>
+            <a href="index.php?acao=login_tela" class="btn btn-outline-light btn-sm">Área dos Funcionários</a>
         </div>
     </div>
 </nav>
